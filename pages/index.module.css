@@ -1,0 +1,439 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.vectorIcon {
+  position: relative;
+  width: 643.59px;
+  height: 740.43px;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1402px;
+  height: 981px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild,
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner,
+.frameItem,
+.rectangleInput {
+  border: 0.7px solid var(--color-black);
+  background-color: var(--color-white);
+  position: absolute;
+  height: 6.36%;
+  width: 20.5%;
+  top: 21.85%;
+  right: 29.55%;
+  bottom: 71.79%;
+  left: 49.95%;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner,
+.frameItem,
+.rectangleInput {
+  width: 42.04%;
+  top: 44.37%;
+  right: 8.01%;
+  bottom: 49.27%;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner,
+.rectangleInput {
+  width: 20.5%;
+  top: 68.43%;
+  right: 29.55%;
+  bottom: 25.21%;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.rectangleInput {
+  right: 8.01%;
+  left: 71.49%;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  top: 57.12%;
+  right: 29.55%;
+  bottom: 36.52%;
+  left: 49.95%;
+}
+.frameChild2,
+.frameChild3 {
+  right: 8.01%;
+  left: 71.49%;
+}
+.frameChild3 {
+  top: 21.85%;
+  right: 8.22%;
+  bottom: 71.79%;
+  left: 71.28%;
+}
+.frameChild4,
+.frameChild5,
+.rectangleDiv {
+  border: 0.7px solid var(--color-black);
+  background-color: var(--color-white);
+  position: absolute;
+  height: 6.36%;
+  width: 20.5%;
+  top: 33.16%;
+  right: 29.55%;
+  bottom: 60.48%;
+  left: 49.95%;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+}
+.frameChild5 {
+  right: 8.22%;
+  left: 71.28%;
+}
+.fanRegistration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 351px;
+  height: 57px;
+}
+.fanRegistrationWrapper,
+.signMeUp {
+  font-size: var(--font-size-8xl);
+  font-family: var(--font-inter);
+}
+.fanRegistrationWrapper {
+  position: absolute;
+  top: 91px;
+  left: 824px;
+  width: 351px;
+  height: 57px;
+  text-align: center;
+  color: var(--color-black);
+}
+.signMeUp {
+  position: relative;
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.signUpButton {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray);
+  padding: 15px 210px;
+  background-color: #ff6a61;
+  position: absolute;
+  top: 878px;
+  left: 710px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0;
+}
+.signUpButton.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.signUpButton:hover {
+  background-color: #cf554e;
+}
+.transformYourLife {
+  position: absolute;
+  top: 228px;
+  left: 106px;
+  font-size: 60px;
+  font-weight: 800;
+  display: inline-block;
+  width: 536px;
+  height: 328px;
+}
+.logIn {
+  text-decoration: underline;
+  color: var(--color-mediumblue);
+}
+.alreadyHaveAnContainer {
+  position: absolute;
+  top: 589px;
+  left: 120px;
+  font-size: 24px;
+  color: var(--color-black);
+}
+.groupChild {
+  position: absolute;
+  top: 2.31px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 124px;
+  height: 36px;
+}
+.firstName {
+  position: absolute;
+  height: 62.52%;
+  width: 94.49%;
+  top: 0;
+  left: 5.51%;
+  display: inline-block;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  top: 199px;
+  left: 713px;
+  width: 130.86px;
+  height: 38.31px;
+}
+.groupItem {
+  height: 68.31%;
+  width: 100%;
+  top: 31.69%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.email {
+  position: absolute;
+  height: 47.44%;
+  width: 93.42%;
+  top: 0;
+  left: 5.41%;
+  display: inline-block;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  height: 5.15%;
+  width: 5.28%;
+  top: 42.71%;
+  right: 43.51%;
+  bottom: 52.14%;
+  left: 51.21%;
+}
+.groupInner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.displayName {
+  position: absolute;
+  height: 70.59%;
+  width: 93.46%;
+  top: 8.82%;
+  left: 1.96%;
+  display: inline-block;
+}
+.rectangleContainer {
+  position: absolute;
+  height: 3.47%;
+  width: 10.91%;
+  top: 31.29%;
+  right: 38.45%;
+  bottom: 65.24%;
+  left: 50.64%;
+}
+.username {
+  position: absolute;
+  height: 70.59%;
+  width: 86.67%;
+  top: 8.82%;
+  left: 4.24%;
+  display: inline-block;
+}
+.groupDiv {
+  position: absolute;
+  height: 3.47%;
+  width: 8.63%;
+  top: 31.29%;
+  right: 18.9%;
+  bottom: 65.24%;
+  left: 72.47%;
+}
+.groupChild2 {
+  position: absolute;
+  top: 12.8px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 117.5px;
+  height: 36px;
+}
+.password {
+  position: absolute;
+  height: 49.07%;
+  width: 95.98%;
+  top: 0;
+  left: 4.02%;
+  display: inline-block;
+}
+.groupChild3,
+.rectangleParent1 {
+  position: absolute;
+  top: 654px;
+  left: 720px;
+  width: 124px;
+  height: 48.8px;
+}
+.groupChild3 {
+  top: 12.8px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 84.34px;
+  height: 36px;
+}
+.groupChild4,
+.rectangleParent2 {
+  position: absolute;
+  top: 543px;
+  left: 720px;
+  width: 89px;
+  height: 48.8px;
+}
+.groupChild4 {
+  top: 0;
+  left: 0.42px;
+  background-color: var(--color-white);
+  width: 84.34px;
+  height: 36px;
+}
+.country {
+  position: absolute;
+  height: 66.53%;
+  width: 100%;
+  top: 8.33%;
+  left: 0;
+  display: inline-block;
+}
+.groupChild5,
+.rectangleParent3 {
+  position: absolute;
+  top: 543px;
+  left: 1020px;
+  width: 85.42px;
+  height: 36px;
+}
+.groupChild5 {
+  top: 2px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 196px;
+}
+.confirmPassword {
+  position: absolute;
+  height: 63.16%;
+  width: 97.83%;
+  top: 0;
+  left: 2.17%;
+  display: inline-block;
+}
+.groupChild6,
+.rectangleParent4 {
+  position: absolute;
+  top: 659px;
+  left: 1016px;
+  width: 196px;
+  height: 38px;
+}
+.groupChild6 {
+  top: 2.31px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 121px;
+  height: 36px;
+}
+.lastName {
+  position: absolute;
+  height: 62.65%;
+  width: 95.3%;
+  top: 0;
+  left: 4.7%;
+  display: inline-block;
+}
+.frameChild6,
+.rectangleParent5 {
+  position: absolute;
+  top: 196px;
+  left: 1016px;
+  width: 149px;
+  height: 38.31px;
+}
+.frameChild6 {
+  top: 797.5px;
+  left: 719.5px;
+  border-radius: 3px;
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 21px;
+  height: 21px;
+}
+.iAgreeToContainer {
+  position: absolute;
+  top: 794px;
+  left: 790px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.outlinebrandsinstagramIcon {
+  position: absolute;
+  top: 788px;
+  left: 120px;
+  width: 40px;
+  height: 40px;
+}
+.outlinebrandsgoogleIcon,
+.outlinebrandstwitterIcon {
+  position: absolute;
+  top: 788px;
+  left: 170px;
+  width: 40px;
+  height: 40px;
+}
+.outlinebrandsgoogleIcon {
+  left: 217px;
+}
+.desktop1,
+.frameParent {
+  height: 981px;
+  overflow: hidden;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 1402px;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-nunito);
+  display: flex;
+  justify-content: center;
+}
